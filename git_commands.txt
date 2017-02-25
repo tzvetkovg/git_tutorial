@@ -1,1 +1,3 @@
-git rm --cached -r "directory" - untrack directory/file
+git rm --cached -r "directory" # untrack directory/file
+
+git ls-tree HEAD~1 # lists the files along with the commits
