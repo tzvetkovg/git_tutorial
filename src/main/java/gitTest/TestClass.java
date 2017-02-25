@@ -7,4 +7,5 @@ public class TestClass {
 
 
 
+  private String as;
 }
