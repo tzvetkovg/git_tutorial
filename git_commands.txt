@@ -19,3 +19,5 @@ git branch --merged # show which branches contain all of the changes of this bra
 git merge branch # merge the branch
 
 git stash save "message" #stash changes
+
+git stash list #view stashes
