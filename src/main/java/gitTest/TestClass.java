@@ -6,6 +6,6 @@ package gitTest;
 public class TestClass {
   //Before checkout
 
-
+  //stash
 
 }
