@@ -15,3 +15,6 @@ git show commit # show what's been committed
 git branch --merged # show all branches which contain the commits of the current branch
 
 git branch --merged # show which branches contain all of the changes of this branch
+
+git merge branch # merge the branch
+
