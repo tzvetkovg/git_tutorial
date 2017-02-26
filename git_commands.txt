@@ -2,4 +2,12 @@ git rm --cached -r "directory" # untrack directory/file
 
 git ls-tree HEAD~1 # lists the files along with the commits
 
- git log --graph --oneline --decorate --all #display current branches and HEAD
+git log --graph --oneline --decorate --all #display current branches and HEAD
+
+cat .git/HEAD # find which branch HEAD points to
+
+ls -la .git/refs/heads/ # list all branches
+
+cat .git/refs/heads/master # show the latest commit of a specific branch
+
+git show commit # show what's been committed
