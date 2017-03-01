@@ -21,3 +21,10 @@ git merge branch # merge the branch
 git stash save "message" #stash changes
 
 git stash list #view stashes
+
+############### DOS commands ##########
+netstat -na | find "1162" # find whether something is running on port
+
+taskkill /F /PID PID_NUM #kill process
+
+netstat -a -o -n # all all ports and what's running on them
