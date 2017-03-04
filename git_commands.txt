@@ -22,6 +22,8 @@ git stash save "message" #stash changes
 
 git stash list #view stashes
 
+git branch --set-upstream-to origin/master master #link local branch to remote branch
+
 ############### DOS commands ##########
 netstat -na | find "1162" # find whether something is running on port
 
