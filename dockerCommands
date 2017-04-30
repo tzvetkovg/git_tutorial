@@ -1,0 +1,12 @@
+docker build -f DockerFile -t imageName . #builds an image
+
+docker-compose up #runs the yml docker file
+
+docker images #displays images
+
+docker stop containerName # stops container
+
+docker run -p 8080:8080 imageName #run an image
+
+docker ps # list running containers
+
