@@ -1,0 +1,53 @@
+pwd = current directory
+
+-----------------LS-------------------
+
+ls [options] [fd] = list files in directory
+
+ls ¬ = list home directory content
+
+ls -l = long list
+
+ls -a = show hidden files too
+
+ls -la = combined two above
+
+ls -lS = list long and sort
+
+ls -alS = combines all
+
+ls Documents/*.html = list html files in Documents
+
+ls libre_files/* > output.txt = save result to a file
+
+ls -d */ = list only directories
+
+man ls = manual for ls
+
+
+------------------CD----------------
+
+cd = go to home dir
+
+cd [folder] = go to folder
+
+cd / = go to root
+
+cd ¬ = go to home dir
+
+cd .. = go the parent dir
+
+cd "My Books" = for dir with spaces
+
+
+-----------------CAT-----------------
+
+cat [option] file1 file2..
+
+cat [filename] = display content of file
+
+cat -b [filename] = display lines of file content
+
+cat -n [filename] = add lines to all content
+
+
